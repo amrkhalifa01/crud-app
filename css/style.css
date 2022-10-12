@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Share Tech Mono';
+    src: url('../fonts/ShareTechMono-Regular.ttf');
+}
+
+body {
+    font-family: 'Share Tech Mono';
+    background-color: #000;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #bfbfbf;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #6e6e6e;
+    border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5a5a5a;
+}
+
+#crud {
+    width: 90%;
+}
+
+#head,
+#body,
+#searchContainer {
+    border-bottom: 1px solid #444;
+}
+
+input {
+    background-color: #bbb !important;
+    box-shadow: none !important;
+    transition: all 0.2s !important;
+    color: #000 !important;
+}
+
+input::placeholder {
+    color: #555 !important;
+}
+
+input:focus {
+    background-color: #fff !important;
+    border: 1px solid #111 !important;
+}
+
+input:focus::placeholder {
+    color: #888 !important;
+}
+
+.required {
+    position: relative;
+}
+
+.required::after {
+    content: "*";
+    position: absolute;
+    top: -3px;
+    right: -8px;
+    font-size: 12px;
+    color: #ff0019;
+}
+
+#total {
+    width: fit-content;
+    background-color: #ff0019;
+    transition: all 0.2s;
+}
+
+#total::before {
+    content: "Total:";
+}
+
+.btn-green,
+.btn-red,
+.btn-yellow {
+    transition: all 0.3s !important;
+}
+
+.btn-green {
+    border: 1px solid #00c76a;
+}
+
+.btn-green:hover {
+    background-color: #00c76a !important;
+    letter-spacing: 1px;
+}
+
+.btn-yellow {
+    border: 1px solid #d9a919;
+}
+
+.btn-yellow:hover {
+    background-color: #d9a919 !important;
+}
+
+.btn-red {
+    border: 1px solid #ff0019;
+}
+
+.btn-red:hover {
+    background-color: #ff0019 !important;
+}
+
+.del-all:hover,
+.update:hover {
+    letter-spacing: 1px;
+}
+
+.active-btn {
+    letter-spacing: 1px;
+    background-color: #00c76a;
+}
+
+table tr td,
+table tr th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#themeIcon {
+    fill: #FAB005;
+    transition: all 0.2s
+}
+
+.theme-mood {
+    color: #fff;
+}

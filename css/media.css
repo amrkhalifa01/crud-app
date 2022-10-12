@@ -1,0 +1,14 @@
+@media screen and (max-width : 720px) {
+    table {
+        font-size: 10px !important;
+    }
+
+    table button {
+        font-size: 10px !important;
+    }
+
+    table th,
+    table td {
+        padding: 3px !important;
+    }
+}
